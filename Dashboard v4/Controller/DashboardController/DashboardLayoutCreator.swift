@@ -13,20 +13,20 @@ import CoreBluetooth
 extension DashBoardController {
     
     
-    @objc func ioKitDataUpdated() {
-        if let voltageAny = EEIOKitListener.shared().chargerDict["Temperature"] {
-            print(voltageAny)
-            if let voltageInt = voltageAny as? Int {
-                let voltageDouble = Double(voltageInt)
-                let tempFah = (voltageDouble)/100.0 * (9.0/5.0) + 32
-                let tempFahstring = String(tempFah)
-                self.batteryTemp = tempFahstring
-                
-            }
-            
-        }
-        
-    }
+//    @objc func ioKitDataUpdated() {
+//        if let voltageAny = EEIOKitListener.shared().chargerDict["Temperature"] {
+//            print(voltageAny)
+//            if let voltageInt = voltageAny as? Int {
+//                let voltageDouble = Double(voltageInt)
+//                let tempFah = (voltageDouble)/100.0 * (9.0/5.0) + 32
+//                let tempFahstring = String(tempFah)
+//                self.batteryTemp = tempFahstring
+//                
+//            }
+//            
+//        }
+//        
+//    }
     
     
     

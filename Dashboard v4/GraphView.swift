@@ -9,6 +9,7 @@
 import UIKit
 import Charts
 import GTProgressBar
+import KDCircularProgress
 
 class GraphView: UIView, UIGestureRecognizerDelegate {
     
