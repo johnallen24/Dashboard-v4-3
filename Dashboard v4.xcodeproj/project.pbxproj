@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5707AD9F99C33980E49EA6CE /* Pods_Dashboard_v4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E964CE43F3F5B3730338408 /* Pods_Dashboard_v4.framework */; };
 		AB383A2F20CACF880096A46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB383A2E20CACF880096A46E /* AppDelegate.swift */; };
-		AB383A3420CACF880096A46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB383A3220CACF880096A46E /* Main.storyboard */; };
 		AB383A3920CACF8A0096A46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB383A3720CACF8A0096A46E /* LaunchScreen.storyboard */; };
 		AB383A5D20CD88AB0096A46E /* DashboardController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB383A5420CD88AA0096A46E /* DashboardController4.swift */; };
 		AB383A5E20CD88AB0096A46E /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB383A5520CD88AA0096A46E /* DashBoardController.swift */; };
@@ -35,6 +34,7 @@
 		AB383A8520CD8DC30096A46E /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB383A8420CD8DC30096A46E /* GraphView.swift */; };
 		AB383A8720CD8E140096A46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB383A8620CD8E140096A46E /* Assets.xcassets */; };
 		AB6B9A8020CE188300BE9080 /* yolo.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB6B9A7F20CE188300BE9080 /* yolo.mlmodel */; };
+		AB6B9A8220CE193100BE9080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6B9A8120CE193100BE9080 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		9D79FDAF57356D73013FF9FB /* Pods-Dashboard v4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dashboard v4.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dashboard v4/Pods-Dashboard v4.release.xcconfig"; sourceTree = "<group>"; };
 		AB383A2B20CACF880096A46E /* Dashboard v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dashboard v4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB383A2E20CACF880096A46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB383A3320CACF880096A46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB383A3820CACF8A0096A46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB383A3A20CACF8A0096A46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB383A5420CD88AA0096A46E /* DashboardController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController4.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		AB383A8420CD8DC30096A46E /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		AB383A8620CD8E140096A46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB6B9A7F20CE188300BE9080 /* yolo.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolo.mlmodel; sourceTree = "<group>"; };
+		AB6B9A8120CE193100BE9080 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 				AB383A7020CD8BD70096A46E /* YOLO */,
 				AB383A4020CD86FD0096A46E /* Controller */,
 				AB383A2E20CACF880096A46E /* AppDelegate.swift */,
+				AB6B9A8120CE193100BE9080 /* Main.storyboard */,
 				AB383A8420CD8DC30096A46E /* GraphView.swift */,
-				AB383A3220CACF880096A46E /* Main.storyboard */,
 				AB383A8620CD8E140096A46E /* Assets.xcassets */,
 				AB383A3720CACF8A0096A46E /* LaunchScreen.storyboard */,
 				AB383A3A20CACF8A0096A46E /* Info.plist */,
@@ -262,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6B9A8220CE193100BE9080 /* Main.storyboard in Resources */,
 				AB383A3920CACF8A0096A46E /* LaunchScreen.storyboard in Resources */,
 				AB383A8720CD8E140096A46E /* Assets.xcassets in Resources */,
-				AB383A3420CACF880096A46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,14 +352,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB383A3220CACF880096A46E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB383A3320CACF880096A46E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB383A3720CACF8A0096A46E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
